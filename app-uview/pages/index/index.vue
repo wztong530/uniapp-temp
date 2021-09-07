@@ -10,7 +10,7 @@
 		<u-button type="info">信息按钮</u-button>
 		<u-button type="warning">警告按钮</u-button>
 		<u-button type="error">危险按钮</u-button>
-		<<view class="test pg-font-1">test</view>
+		<<view class="test t-font-1">test</view>
 	</view>
 </template>
 
@@ -34,7 +34,7 @@
 	.test {
 		width: 100rpx;
 		height: 100rpx;
-		background: $pg-main-color;
+		background: $t-main-color;
 	}
 	.content {
 		display: flex;
