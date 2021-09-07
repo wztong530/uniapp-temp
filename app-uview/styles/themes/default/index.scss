@@ -1,13 +1,13 @@
 @import "./var.scss";
 
 /* 状态栏高度占位 */
-.pg-status_bar {
+.t-status_bar {
   height: var(--status-bar-height);
   width: 100%;
 }
 
 /* 显示一行，省略号 */
-.pg-ellipsis_1 {
+.t-ellipsis_1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -15,7 +15,7 @@
 }
 
 /* 显示两行，省略号 */
-.pg-ellipsis_2 {
+.t-ellipsis_2 {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
